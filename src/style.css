@@ -102,6 +102,7 @@ button:hover{
 
 
 .modal{
+    display: none;
     position: fixed;
     z-index: 10000;
     left: 0;
@@ -112,8 +113,11 @@ button:hover{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.modal-context{
+.modal-content{
     background-color: #333;
     margin: 20;
-    
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
 }
